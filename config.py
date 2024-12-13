@@ -10,7 +10,7 @@ class Config(object):
     PASSWORD = os.environ.get("PASSWORD", "the_tgguy")
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://zoneunknown745:oPlpsH5OxkVuc5Wq@cluster0.kyw2p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     LOGCHANNEL = os.environ.get("LOGCHANNEL", "-1002288135729")  
-    GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "root")
+    GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "1-62ju9N_N1cccmzWVvdFea5ZGvK4REvm")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", None)
     IS_PREMIUM = False
     MODES = ["video-video", "video-audio", "video-subtitle", "extract-streams"]
